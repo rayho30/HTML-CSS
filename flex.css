@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container {
+    height: 400px;
+    width: 400px;
+    background-color: khaki;
+    margin: 5px;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center; */
+   flex-wrap: wrap;
+
+}
+#Heading {text-align: center;}
+.Box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 5px
+
+}
+#box1 { background-color: aqua;}
+#box2 { background-color: yellow;}
+#box3 { background-color: blue;}
+#box4 { background-color: red;}
